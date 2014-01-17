@@ -6,10 +6,12 @@ public class ConcreteSubject implements Subject {
 
 	private ArrayList<Observer> observers = new ArrayList<Observer>();
 
+
 	/**
-	 * Method ID  : setAttribute
-	 * Explanation : set a class's attribute then notify to observers
+	 * @author se
+	 * @version 2014. 1. 17.   
 	 * @param obj 
+	 * set a class's attribute then notify to observers
 	 */
 	public void setAttribute(Object obj) {
 		

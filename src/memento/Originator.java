@@ -10,10 +10,12 @@ public class Originator {
 		this.state = state;
 	}
 
+
 	/**
-	 * Method ID  : saveToMemento
-	 * Explanation : create a memento
+	 * @author se
+	 * @version 2014. 1. 17.   
 	 * @return 
+	 * create a memento
 	 */
 	public Memento saveToMemento() {
 		System.out.println("Originator: Saving to Memento.");
@@ -21,9 +23,10 @@ public class Originator {
 	}
 
 	/**
-	 * Method ID  : restoreFromMemento
-	 * Explanation : restore from saved state
+	 * @author se
+	 * @version 2014. 1. 17.   
 	 * @param memento 
+	 * restore from saved state
 	 */
 	public void restoreFromMemento(Memento memento) {
 		state = memento.getSavedState();

@@ -1,17 +1,19 @@
 package observer;
 
 public interface Observer {
-	
+
 	/**
-	 * Method ID  : update
-	 * Explanation : update subject corresponding to param
+	 * @author se
+	 * @version 2014. 1. 17.   
 	 * @param subject 
+	 * update subject corresponding to param
 	 */
 	void update(Subject subject);
 	
 	/**
-	 * Method ID  : display
-	 * Explanation : implemented method after update subjecr 
+	 * @author se
+	 * @version 2014. 1. 17.    
+	 * implemented method after update subject
 	 */
 	void display();
 }
