@@ -7,10 +7,10 @@ public class TestCase {
 		ConcreteSubject subject = new ConcreteSubject();
 		ConcreteObserver observer = new ConcreteObserver();
 				
-		// attach observer to subject
+		/* attach observer to subject */
 		subject.attachObserver(observer);
 		
-		// change subject's attribute
+		/* change subject's attribute */
 		subject.setAttribute("set attribute is invoked\n");
 		
 	}
