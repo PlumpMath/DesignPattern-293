@@ -6,9 +6,13 @@ public class ConcreteSubject implements Subject {
 
 	private ArrayList<Observer> observers = new ArrayList<Observer>();
 
+	/**
+	 * Method ID  : setAttribute
+	 * Explanation : set a class's attribute then notify to observers
+	 * @param obj 
+	 */
 	public void setAttribute(Object obj) {
 		
-		// set a class's attribute
 		System.out.println("subject's attribute is changed.. " + obj.toString());
 		
 		notifyObservers();

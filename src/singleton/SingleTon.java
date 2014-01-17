@@ -4,7 +4,11 @@ public class SingleTon {
 
 	private static SingleTon instance;
 	
-	/* if instance is not initialized, return a new instance */
+	/*
+	 * Method ID  : getInstance
+	 * Explanation : if instance is not initialized, return a new instance 
+	 * @return 
+	 */
 	public static SingleTon getInstance() {
 		
 		if( instance != null ) 
