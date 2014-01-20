@@ -6,9 +6,16 @@ public class ConcreteSubject implements Subject {
 
 	private ArrayList<Observer> observers = new ArrayList<Observer>();
 
+
+	/**
+	 * @author se
+	 * @version 2014. 1. 17.   
+	 * @param obj 
+	 * set a class's attribute then notify to observers
+	 */
 	public void setAttribute(Object obj) {
+
 		
-		/* set a class's attribute */
 		System.out.println("subject's attribute is changed.. " + obj.toString());
 		
 		notifyObservers();
