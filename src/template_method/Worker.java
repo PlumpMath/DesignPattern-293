@@ -5,8 +5,13 @@ public abstract class Worker {
 	protected abstract void doTask();
 	
 	public final void work() {
-		System.out.println("Start work...");
+		
+		/* all workers have to do this task */
+		System.out.println("Go Office...");
+		
 		doTask();
+		
+		/* all workers go home */
 		System.out.println("Go Home!");
 	}
 	

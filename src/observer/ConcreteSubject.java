@@ -8,7 +8,7 @@ public class ConcreteSubject implements Subject {
 
 	public void setAttribute(Object obj) {
 		
-		// set a class's attribute
+		/* set a class's attribute */
 		System.out.println("subject's attribute is changed.. " + obj.toString());
 		
 		notifyObservers();
