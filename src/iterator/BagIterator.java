@@ -1,11 +1,12 @@
 package iterator;
 
-public class BagIteratord implements Iterator {
+public class BagIterator implements Iterator {
 
+	/* iterate bag */
 	private Bag bag;
 	private int index;
 	
-	public BagIteratord(Bag bag) {
+	public BagIterator(Bag bag) {
 		this.bag = bag;
 		this.index = 0;
 	}
@@ -20,6 +21,7 @@ public class BagIteratord implements Iterator {
 
 	@Override
 	public Object next() {
+		/* get a item from bag */
 		return this.bag.getItem(index++);		
 	}
 

@@ -1,8 +1,11 @@
 package iterator;
 
+
 public class Bag implements Aggregate {
 
+	/* Items to iterate */
 	private Item[] items;
+	/* Item index */
 	private int lastItem = 0;
 	
 	public Bag(int maxSize) {
@@ -24,7 +27,7 @@ public class Bag implements Aggregate {
 	
 	@Override
 	public Iterator iterator() {
-		return new BagIteratord(this);
+		return new BagIterator(this);
 	}
 	
 }

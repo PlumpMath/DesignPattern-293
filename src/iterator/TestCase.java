@@ -9,7 +9,7 @@ public class TestCase {
 			bag.addItem(new Item("item" + i));
 		}
 		
-		BagIteratord iter = (BagIteratord) bag.iterator();
+		BagIterator iter = (BagIterator) bag.iterator();
 		
 		while(iter.hasNext()) {
 			Item item = (Item) iter.next();
